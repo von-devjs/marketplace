@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmF">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/PSU LOGO.png" alt="PSU Logo">
+                
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tutorial">Tutorials</a></li>
+                    <li class="brand">PSU</li>
+                    <li><a href="#">Lockers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+        </div>
+    </header>
+
+<div id="#home">
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+            <img src="images/FEATURED1.png" alt="Slide 1">
+            <!--<div class="text">Caption for Slide 1</div>-->
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <img src="images/FEATURED2.png" alt="Slide 2">
+            <!--<div class="text">Caption for Slide 2</div>-->
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <img src="images/FEATURED3.png" alt="Slide 3">
+            <!--<div class="text">Caption for Slide 3</div>-->
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="mySlides fade">
+            <img src="images/FEATURED4.png" alt="Slide 3">
+            <!--<div class="text">Caption for Slide 3</div>-->
+        </div>
+        
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+  
+    <!--Center Button -->
+   <!---- <button class="button">
+            <span class="button-content">Buy Now ! </span>
+     </button>
+
+     <!--Explore-->
+    
+<button class="cta">
+  <span class="hover-underline-animation"> Shop now </span>
+  <svg
+    id="arrow-horizontal"
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="10"
+    viewBox="0 0 46 16"
+  >
+    <path
+      id="Path_10"
+      data-name="Path 10"
+      d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+      transform="translate(30)"
+    ></path>
+  </svg>
+</button>
+</div>
+
+<!--LOGO SLIDER-->
+<div class="slider">
+    <div class="slide-track">
+         <div class="slide">
+              <img src="images/BS COE.png" height="120" width="150" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS CE.png" height="120" width="200" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS EE.png" height="120" width="250" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS ME.png" height="120" width="250" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS IT.png" height="120" width="250" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS MATH.png" height="120" width="250" alt="" />
+         </div>
+         <div class="slide">
+              <img src="images/BS ARCHI.png" height="120" width="250" alt="" />
+         </div>
+
+         
+    </div>
+</div>
+</div>
+
+<!--CATEGORY PAGE-->
+<div id="portfolio" ></div>
+    <div class="container">
+        <h1 class="sub-title" data-aos="fade-right" data-aos-duration="5000" data-aos-delay="800">Categories</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/BS COE.png">
+                <div class="layer">
+                    <p>BS Computer Engineering</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS CE.png">
+                <div class="layer">
+                    <p>BS Civil Engineering</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS ME.png">
+                <div class="layer">
+                    <p>BS Mechanical Engineering</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS EE.png">
+                <div class="layer">
+                    <p>BS Electrical Engineering</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS IT.png">
+                <div class="layer">
+                    <p>BS Information Technology</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS MATH.png">
+                <div class="layer">
+                    <p>BS Mathematics</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BS ARCHI.png">
+                <div class="layer">
+                    <p>BS Architecture</p>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TUTORIAL PAGE -->
+<div id="#tutorial" data-aos="fade-up" class="animated">
+    <div class="container"  data-aos="zoom-in">
+        <h1>Tutorials</h1>
+        <div class="row">
+            <div class="col"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="feature-img">
+                    <img src="images/FEATURE6.jfif" width="100%">
+                    <img src="images/play-button.png"class="play-btn" onclick="playVideo('images/Lyrics.mp4')">
+                </div>
+            </div>
+            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/FEATURE6.jfif" alt="">
+                        <img src="images/play-button.png"class="play-btn" onclick="playVideo('images/Lyrics.mp4')">
+    
+                    </div>
+                    <p>How to buy products and avail services ? <br> Watch this tutorial !</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/FEATURE6.jfif" alt="">
+                        <img src="images/play-button.png"class="play-btn" onclick="playVideo('images/Lyrics.mp4')">
+    
+                    </div>
+                    <p> Payment Methods ? <br> Watch this tutorial !</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/FEATURE6.jfif" alt="">
+                        <img src="images/play-button.png"class="play-btn" onclick="playVideo('images/Lyrics.mp4')">
+    
+                    </div>
+                    <p> How to access lockers ? <br> Watch this Tutorial !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="video-player" id="videoplayer">
+        <video  width="100%" controls autoplay id="myvideo">
+    
+            <source src="Lyrics.mp4" type="video/mp4" >
+        </video>
+        <img src="images/x.png" class="close-btn" onclick="stopbtn()">
+    </div>
+
+    <!--CONTACT US-->
+
+    <div class="contact-in">
+        <div class="contact-map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.485136953684!2d120.57101037495315!3d15.988241584679653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33913fcad5ab1c65%3A0xfdb173c5fca03a16!2sPangasinan%20State%20University%2C%20Urdaneta%20Campus!5e0!3m2!1sen!2sph!4v1726641260791!5m2!1sen!2sph" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="#contact">
+        <div class="contact-form">
+            <h1>Contact Admin</h1>
+            <form>
+                <input type="text" placeholder="Name" class="contact-form-txt"/>
+                <input type="text" placeholder="Email" class="contact-form-txt"/>
+                <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+                <input type="submit" name="Submit" class="contact-form-btn"/>
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+
+
+    
+
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/3bbc5df77e.js"></script>
+  <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+  <script>
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slide");
+    
+    function showSlides() {
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  // Hide all slides
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1; } // Loop back to the first slide
+        slides[slideIndex - 1].style.display = "block"; // Show the current slide
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+    
+    // Initial call to start the slideshow
+    showSlides();
+    </script>
+    
+
+  </script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
